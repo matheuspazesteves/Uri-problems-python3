@@ -1,0 +1,9 @@
+numero=int(input())
+horas=int(input())
+valor=float(input())
+
+
+total = valor*horas
+
+print("NUMBER =",numero,end='\n')
+print("SALARY = U$ %0.2f"%total,end='\n')
